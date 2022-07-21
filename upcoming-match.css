@@ -29,7 +29,7 @@ body{
 }
 .description >button{
     padding: 10px 25px;
-    background-color:#45B39D;
+    background-color: #45B39D;
     color: white;
     border-radius: 5px;
     font-weight: 700;
@@ -64,7 +64,7 @@ main {
     grid-template-rows: repeat(3, 50px);
     row-gap: 10px;
 }
-.blog-button > button{
+.blog-button button{
    width: 80%;
    margin: auto;
    font-weight: 600;
@@ -89,37 +89,26 @@ main {
     row-gap: 30px;
 }
 .blog{
-    height: 350px;
+    height: 300px;
     border: 1px solid gray;
     border-radius: 10px;
 }
-.blog-img{
-    width: 100%;
-    height: 160px;
+.flag{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
 
 }
-.blog-img >img{
-    width: 100%;
-    height: 100%;
-}
-.blog-discription{
-    width: 100%;
-    height: 190px;
-    padding: 20px;
-}
-.blog-span {
-    width: 70px;
-    height: 24px;
-    display: inline-block;
-
-}
-.blog-discription >button{
-    padding: 5px 15px;
+.flag-vs{
     font-weight: 700;
-    border: 1px solid gray;
-    border-radius: 5px;
+    margin-top: 20px;
 }
-.blog-discrition >h4{
+
+.blog-discription{
+    text-align: center;
+}
+
+.blog-discrition >h3{
     font-weight: 800;
 }
 
